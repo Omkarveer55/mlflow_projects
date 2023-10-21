@@ -1,6 +1,0 @@
-artifact_location: file:///C:/Users/DELL3/mlflow_projects/mlruns/772078604248079843
-creation_time: 1697862913106
-experiment_id: '772078604248079843'
-last_update_time: 1697862913106
-lifecycle_stage: active
-name: iris_model_experiment
