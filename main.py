@@ -37,6 +37,9 @@ if __name__ == '__main__':
         mlflow.log_param("alpha",alpha)
         mlflow.log_param("l1_ratio",l1_ratio)
 
+        mlflow_tracking_uri = "https://dagshub.com/Omkarveer55/mlflow_projects.mlflow"
+        mlflow.set_tracking_uri(mlflow_tracking_uri)
+
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         if tracking_url_type_store != "file":
             # Register the model
